@@ -1,0 +1,319 @@
+header{
+    background-color: #480091;
+    padding: 16px;
+    display: flex;
+}
+body{
+    margin: 0px;
+    animation-name: animeteOpening;
+    animation-duration: 3s;
+}
+@keyframes animeteOpening{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.readNow-Btn{
+    border-radius: 16px;
+    padding: 0px;
+    border: 2px solid black;
+    margin-top: 0px;
+}
+.readNow-Btn:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.readMoreLink{
+    margin: 0px;
+    padding: 6px;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-right: 25px;
+}
+a:hover{
+    opacity: 0.7;
+}
+.webtTitle{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 210px;
+}
+.webtTitle:hover{
+    opacity: 0.7;
+}
+.navBtn{
+    margin-top: 6px;
+    margin-left: 250px;
+    margin-right: 450px;
+    font-size: 18px;
+}
+.headLine{
+    font-size: 80px;
+    margin-left: 18px;
+}
+.subHeadLine{
+    width: 700px;
+    height: 200px;
+    text-align: justify;
+    margin-left: 18px;
+    margin-bottom: 0px;
+    margin-right: 150px;
+    font-size: 20px;
+}
+footer{
+    background-color: #480091;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}.readNow-Btn2{
+    border-radius: 16px;
+    padding: 6px;
+     border: none;
+    margin-left: 10px;
+    padding: 16px;
+    font-size: 15px;
+    margin-bottom: 100px;
+}
+.readNow-Btn2:hover{
+    opacity: 0.7;
+    cursor: pointer;  
+}
+.midLineFlexer{
+    display: flex;
+    height: 250px;
+}
+    
+.frontPageImg1{
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    animation: bounce 2s ease infinite; 
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px); /* Adjust this value for height */
+  }
+}
+.rotatingImgContainer{
+    display: flex;
+}
+.introductionContainer{
+    text-align: center;
+    font-size: 20px;
+    width: 60%;
+    background-color: #480091;
+    color: white;
+    border-radius: 15px;
+    margin-left: 21%;
+    margin-top: 100px;
+}
+.topicsContainer{
+    display: flex;
+    gap: 200px;
+    margin-left: 100px;
+    margin-top: 150px;
+    animation: bounce 2s ease infinite; 
+}
+.topicImg{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    margin-left: 25px;
+}
+.topicDescription{
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0px;    
+    margin-left: 25px;
+}
+.topics{
+    border: 2px solid;
+    border-radius: 16px;
+    background-color: #480091;
+    color: white;
+    padding: 5px;
+}
+#topic1Title{
+    text-align: center;
+    font-size: 30px;
+    background-color: #480091;
+    border-radius: 16px;
+    color: white;
+    margin-top: 100px; 
+    margin-left: 330px;
+    padding: 5px;
+    width: 700px;
+    margin-bottom: 50px;
+}
+#topic2Title{
+    text-align: center;
+    font-size: 30px;
+    background-color: #480091;
+    border-radius: 16px;
+    color: white;
+    margin-top: 100px; 
+    margin-left: 330px;
+    padding: 5px;
+    width: 700px;
+    margin-bottom: 50px;
+}
+#topic3Title{
+    text-align: center;
+    font-size: 30px;
+    background-color: #480091;
+    border-radius: 16px;
+    color: white;
+    margin-top: 100px; 
+    margin-left: 330px;
+    padding: 5px;
+    width: 700px;
+    margin-bottom: 100px;
+}
+.topic1discussionContainerLefty{
+    display: flex;
+    width: 70%;
+    border: 2px solid;
+    margin-left: 230px;
+    border-radius: 16px;
+    padding: 10px;
+    background:linear-gradient(to right, white 1%, #480091);
+    margin-bottom: 100px;
+}
+.topic1discussionContainerRighty{
+    display: flex;
+    width: 70%;
+    border: 2px solid;
+    margin-left: 230px;
+    border-radius: 16px;
+    padding: 10px;
+    background:linear-gradient(to right, white 1%, #480091);
+    margin-bottom: 100px;
+}
+.discussionImg{
+    width: 200px;
+    height: 200px;
+    border-radius: 16px;    
+}
+.discussionInfos{
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 20px;
+    width: 60%;
+    margin-left: 100px;
+    margin-right: 30px;
+    font-weight: bold;
+}
+.backToTopBtn{
+    color: white;
+    border: 2px solid;  
+    border-radius: 16px;
+    padding: 6px;background-color: #480091;
+    position: fixed;
+}
+.divFlexer{
+    display: flex;
+    gap: 50px;
+    margin-left: 170px;
+    margin-bottom: 50px;
+}
+.typeDescriptionContainer{
+    border-radius: 16px;
+    font-size: 25px;
+    text-align: justify;
+    padding: 5px;
+    margin-left: 0px;
+    width: 40%;
+    background: linear-gradient(to right, #ABE5E6, #7062F0);
+    color: black;
+}
+.typeExamplesContainer{
+    width: 40%;
+    border: 2px solid;
+    border-radius: 16px;
+    font-size: 25px;
+    background: linear-gradient(to left, #ABE5E6, #7062F0);
+}
+.typeTitle{
+    transform: rotate(270deg);
+    border: 2px solid;
+    font-size: 30px;
+    width: 500px;
+    height: 35px;
+    border-radius: 16px;
+    margin-bottom: 0px;
+}
+.topic3Name{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.aboutHeadline{
+    font-size: 50px;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+.aboutWebsite{
+    width: 50%;
+    font-size: 30px;
+    margin-left: 20px;
+    text-align: justify;
+}
+.aboutWebsiteCalling{
+    width: 50%;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 55px;
+}
+.contactHeadline{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.contactInfosContainer{
+    display: flex;
+    gap: 40px;
+    margin-left: 160px;
+    margin-bottom: 210px;
+    animation: bounce 2s ease infinite; 
+}
+.contactsNumber{
+    border: 2px solid;
+    font-size: 30px;
+    width: 20%;
+    border-radius: 16px;
+    text-align: center;
+    padding: 40px;
+    background-color: black;
+    color: white;
+}
+.contactsEmail{
+    border: 2px solid;
+    font-size: 30px;
+    width: 20%;
+    border-radius: 16px;
+    text-align: center;
+    padding: 40px;
+    background-color: red;
+    color: white;
+}
+.contactsFacebook{
+    border: 2px solid;
+    font-size: 30px;
+    width: 20%;
+    border-radius: 16px;
+    text-align: center;
+    padding: 40px;
+    background-color: blue;
+    color: black;
+}
